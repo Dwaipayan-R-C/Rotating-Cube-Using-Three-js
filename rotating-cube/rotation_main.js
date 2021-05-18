@@ -73,7 +73,7 @@ function init() {
       new THREE.MeshBasicMaterial({ color: Math.random() * 0xffffff })
     );
   }
-
+  // check for the input way
   cube = new THREE.Mesh(
     new THREE.BoxGeometry(
       (boxWidth ),
